@@ -4,11 +4,12 @@
 Alokendu Mazumder¹, Rishabh Sabharwal², Manan Tayal¹, Bhartendu Kumar³, Arnab Roy¹, Chirag Garg⁴, Punit Rathore¹  
 
 **Affiliations:**  
-¹ Robert Bosch Center for Cyber Physical Systems, Indian Institute of Science (IISc) Bengaluru. 
-² The University of Edinburgh.
-³ Microsoft Research India. 
-⁴ Department of Computer Science and Engineering, National Institute of Technology (NIT), Raipur.
+¹ Robert Bosch Center for Cyber Physical Systems, Indian Institute of Science (IISc), Bengaluru  
+² The University of Edinburgh  
+³ Microsoft Research India  
+⁴ Department of Computer Science and Engineering, National Institute of Technology (NIT), Raipur  
 
+📄 **Paper:** [On Convergence of Adam with Data-Dependent Stepsize (arXiv:2309.08339)](https://arxiv.org/abs/2309.08339)
 
 ---
 
