@@ -109,28 +109,6 @@ python experiments.py --estimate-lipschitz --model resnet18 --dataset cifar10
 
 ---
 
-### **Table III** — LLM Generative Experiment. Dataset: SQuAD, Optimizer: Adam, Task: QA (generation)
-
-| Metric | Model | Step | Linear | Cosine | Exp. | Sqrt | Inv-Time | Ours | 2×Ours | Ours/2 |
-|---------|--------|------|---------|---------|-------|-------|-----------|-------|--------|--------|
-| **Exact Match** | LLaMA-3-2.3B-Instruct | 0.7061 | 0.7034 | 0.7096 | 0.7013 | 0.7032 | 0.7046 | 0.6998 | 0.6941 | **0.7141** |
-| | Qwen-3-4B-Instruct | 0.7173 | 0.7153 | 0.7189 | 0.7108 | 0.7123 | 0.7131 | 0.7135 | 0.6965 | **0.7176** |
-| **F1** | LLaMA-3-2.3B-Instruct | 0.8546 | 0.8531 | 0.8572 | 0.8518 | 0.8523 | 0.8529 | 0.8508 | 0.8408 | **0.8585** |
-| | Qwen-3-4B-Instruct | 0.8661 | 0.8642 | 0.8653 | 0.8621 | 0.8630 | 0.8629 | 0.8565 | 0.8577 | **0.8660** |
-
----
-
-### **Table IV** — LLM Generative Experiment. Dataset: SQuAD, Scheduler: Cosine, Task: QA (generation)
-
-| Metric | Model | AdaBelief | AdaBound | AdamW | Yogi | RAdam | Adam + Ours | Adam + 2×Ours | Adam + Ours/2 |
-|---------|--------|------------|------------|--------|--------|--------|--------------|----------------|----------------|
-| **Exact Match** | LLaMA-3-2.3B-Instruct | 0.7122 | 0.6836 | 0.7136 | 0.7088 | **0.7202** | 0.6985 | 0.6941 | **0.7141** |
-| | Qwen-3-4B-Instruct | 0.7275 | 0.6992 | 0.7333 | 0.7170 | **0.7322** | 0.7135 | 0.6965 | **0.7176** |
-| **F1** | LLaMA-3-2.3B-Instruct | 0.8605 | 0.8345 | 0.8636 | 0.8529 | **0.8648** | 0.8508 | 0.8408 | **0.8585** |
-| | Qwen-3-4B-Instruct | 0.8701 | 0.8487 | 0.8728 | 0.8612 | **0.8724** | 0.8575 | 0.8477 | **0.8660** |
-
----
-
 ## 🧠 Theoretical Highlights
 
 We prove that under mild smoothness assumptions:  
