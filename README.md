@@ -122,11 +122,11 @@ We prove that under mild smoothness assumptions:
 
 If you use this work, please cite:
 ```bibtex
-@article{mazumder2023theoretical,
-  title={A Theoretical and Empirical Study on the Convergence of Adam with an" Exact" Constant Step Size in Non-Convex Settings},
-  author={Mazumder, Alokendu and Sabharwal, Rishabh and Tayal, Manan and Kumar, Bhartendu and Rathore, Punit},
-  journal={arXiv preprint arXiv:2309.08339},
-  year={2023}
+@article{mazumder2025convergence,
+  title={On Convergence of Adam with Data Dependent Stepsize},
+  author={Mazumder, Alokendu and Roy, Arnab and Sabharwal, Rishabh and Kumar, Bhartendu and Tayal, Manan and Garg, Chirag and Rathore, Punit},
+  journal={Authorea Preprints},
+  year={2025}
 }
 ```
 
